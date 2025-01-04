@@ -1,0 +1,62 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>About Us</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+</head>
+<body>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/about/">About</a>
+        <a href="/contact/">Contact</a>
+        <a href="/blog/blog_home">Blog</a>
+        <a href="/store/store_home">Store</a>
+        {% if user.is_authenticated %}
+            <a href="/logout/">Logout</a>
+            <span>Welcome, {{ user.username }}!</span>
+        {% else %}
+            <a href="/login/">Login</a>
+            <a href="/signup/">Sign Up</a>
+        {% endif %}
+    </nav>
+
+    <header>
+        <h1>About Us</h1>
+    </header>
+
+    <section>
+        <h2>Who We Are</h2>
+        <p>Welcome to our website! We specialize in offering top-quality tech products and services, including networking equipment, software solutions, and consulting services tailored to meet your needs.</p>
+    </section>
+
+    <section>
+        <h2>Our Mission</h2>
+        <p>To empower businesses and individuals by providing exceptional technology solutions and services that drive success in the digital age.</p>
+    </section>
+
+    <section>
+        <h2>Meet the Team</h2>
+        <div class="team">
+            <div class="team-member">
+                <img src="{% static 'images/team_member_1.jpg' %}" alt="Team Member 1">
+                <h3>John Doe</h3>
+                <p>Founder & CEO</p>
+            </div>
+            <div class="team-member">
+                <img src="{% static 'images/team_member_2.jpg' %}" alt="Team Member 2">
+                <h3>Jane Smith</h3>
+                <p>CTO</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Contact Us</h2>
+        <p>Email: <a href="mailto:tim2@timsablab.ddns.net">tim2@timsablab.ddns.net</a></p>
+        <p>Phone: <a href="tel:+17343040031">(734) 304-0031</a></p>
+    </section>
+</body>
+</html>

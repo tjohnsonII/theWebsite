@@ -1,0 +1,39 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+    <title>{{ title }}</title>
+</head>
+<body>
+    <h1>Store Home</h1>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/about/">About</a>
+        <a href="/contact/">Contact</a>
+        <a href="/blog/blog_home">Blog</a>
+        <a href="/store/store_home">Store</a>
+        {% if user.is_authenticated %}
+            <a href="/logout/">Logout</a>
+            <span>Welcome, {{ user.username }}!</span>
+        {% else %}
+            <a href="/login/">Login</a>
+            <a href="/signup/">Sign Up</a>
+        {% endif %}
+    </nav>
+    <ul>
+        {% for product in products %}
+            <li>
+                <strong>{{ product.name }}</strong><br>
+                <img src="{% static 'images/' %}{{ product.image }}" alt="{{ product.name }}">
+                <p>{{ product.description }}</p>
+                <p>${{ product.price }}</p>
+            </li>
+        {% endfor %}
+    </ul>
+
+
+</body>
+</html>
