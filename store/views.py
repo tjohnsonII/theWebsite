@@ -9,7 +9,7 @@ from django.shortcuts import render
 
 def store_home(request):
     products = Product.objects.all()
-    return render(request, 'store_home.html', {'products': products})
+    return render(request, 'store/store_home.html', {'products': products})
 
 def product_detail(request, product_id):
     product = Product.objects.get(id=product_id)

@@ -1,4 +1,6 @@
+{% extends 'base.html' %}
 {% load static %}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,9 +10,9 @@
     <title>{{ title }}</title>
 </head>
 <body>
-    <h1>Store Home</h1>
+
     <nav>
-        <a href="/">Home</a>
+        <a href="/static">Home</a>
         <a href="/about/">About</a>
         <a href="/contact/">Contact</a>
         <a href="/blog/blog_home">Blog</a>
@@ -27,16 +29,32 @@
             <a href="/signup/">Sign Up</a>
         {% endif %}
     </nav>
-    <ul>
-        {% for product in products %}
-            <li>
-                <strong>{{ product.name }}</strong><br>
-                <img src="{% static 'images/' %}{{ product.image }}" alt="{{ product.name }}">
-                <p>{{ product.description }}</p>
-                <p>${{ product.price }}</p>
-            </li>
-        {% endfor %}
-    </ul>
+
+
+    <div class="container">
+
+        {% block title %}Sign Up{% endblock %}
+
+            {% block content %}
+            <div class="container">
+                <h1>Sign Up</h1>
+                    <form method="post" class="signup-form">
+                        {% csrf_token %}
+                        {{ form.as_p }}
+                        <button type="submit" class="btn-primary">Sign Up</button>
+                    </form>
+                    {% if form.errors %}
+                        <ul class="error-list">
+                            {% for field, errors in form.errors.items %}
+                                <li>{{ field }}: {{ errors|join:", " }}</li>
+                            {% endfor %}
+                        </ul>
+                    {% endif %}
+            </div>
+        {% endblock %}
+
+
+    </div>
 
 
 </body>
