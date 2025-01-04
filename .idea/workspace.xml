@@ -6,6 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="dfda2f57-c4e5-4512-9b09-b3bb7a072573" name="Changes" comment="the e-commerce site I'm working on and learning how to do e-commerce">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog_home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog_home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog_post.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog_post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/create_post.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/create_post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/product_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/product_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/store_home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/store_home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +34,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "tjohnsonII"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/tjohnsonII/theWebsite.git",
+    "accountId": "3bcfce5a-1d86-40e6-952e-1942ae1c11f4"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -41,7 +63,7 @@
     "RunOnceActivity.pycharm.django.structure.promotion.once.per.project": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "django.template.preview.state": "SHOW_EDITOR_AND_PREVIEW",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
@@ -94,7 +116,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1735789276479</updated>
-      <workItem from="1735789277588" duration="13776000" />
+      <workItem from="1735789277588" duration="14850000" />
     </task>
     <task id="LOCAL-00001" summary="the e-commerce site I'm working on and learning how to do e-commerce">
       <option name="closed" value="true" />
@@ -112,7 +134,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736009034377</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="the e-commerce site I'm working on and learning how to do e-commerce">
+      <option name="closed" value="true" />
+      <created>1736009754217</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1736009754217</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
