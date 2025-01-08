@@ -106,3 +106,8 @@ Update settings.py for production (e.g., DEBUG = False).
 Next Steps
 Think about what new features you’d like to implement (e.g., forms, authentication, APIs).
 Organize your code to make it maintainable as your project grows.
+
+
+admin log: 
+username: tjohn
+password: Joshua3412@

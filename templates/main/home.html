@@ -26,8 +26,8 @@
                 <button type="submit">Logout</button>
             </form>
         {% else %}
-            <a href="/login/">Login</a>
-            <a href="/signup/">Sign Up</a>
+            <p>Welcome, guest! Please <a href="{% url 'login' %}">log in</a>
+                or <a href="{% url 'signup' %}">sign up</a>.</p>
         {% endif %}
     </nav>
 

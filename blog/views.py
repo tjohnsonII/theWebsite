@@ -2,7 +2,7 @@ from django.shortcuts import render
 from .models import BlogPost
 
 def blog_home(request):
-    posts = BlogPost.objects.all()
+    posts = BlogPost.objects.all()  # Fetch all posts
     return render(request, 'blog_home.html', {'posts': posts})
 
 def blog_post(request, post_id):
