@@ -4,51 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfda2f57-c4e5-4512-9b09-b3bb7a072573" name="Changes" comment="Logout logic updated&#10;Login logic updated">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Blog Post Management" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/blog_images/MRV.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/blog_images/NAS.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/blog_images/UPS.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/blog_images/accesspoints.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/blog_images/adtran.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/blog_images/asr.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/blog_images/bridge.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/blog_images/cableModems.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/blog_images/default.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/blog_images/example.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/blog_images/example1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/blog_images/example2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/blog_images/fiberPatchPanel.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/blog_images/firewall.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/blog_images/freepbxServer.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/blog_images/keycard.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/blog_images/mailserver.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/blog_images/pointTopointRadios.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/blog_images/programming.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/blog_images/security camers.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/blog_images/server.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/blog_images/switch.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/blog_images/team_member_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/blog_images/team_member_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/blog_images/voipPhones.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/blog_images/vpnServer.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/blog_images/wifiHomeRouters.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/theWebsite.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/theWebsite.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/blog_home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog_home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/main/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theWebsite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/theWebsite/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theWebsite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/theWebsite/urls.py" afterDir="false" />
-    </list>
+    <list default="true" id="dfda2f57-c4e5-4512-9b09-b3bb7a072573" name="Changes" comment="Working on Blog Home" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -173,7 +129,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1735789276479</updated>
-      <workItem from="1735789277588" duration="43217000" />
+      <workItem from="1735789277588" duration="43537000" />
     </task>
     <task id="LOCAL-00001" summary="the e-commerce site I'm working on and learning how to do e-commerce">
       <option name="closed" value="true" />
@@ -223,7 +179,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736025933960</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Working on Blog Home">
+      <option name="closed" value="true" />
+      <created>1736313646848</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1736313646848</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,7 +208,8 @@
     <MESSAGE value="the e-commerce site I'm working on and learning how to do e-commerce" />
     <MESSAGE value="Logout logic updated" />
     <MESSAGE value="Logout logic updated&#10;Login logic updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Logout logic updated&#10;Login logic updated" />
+    <MESSAGE value="Working on Blog Home" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working on Blog Home" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
